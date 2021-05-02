@@ -1,6 +1,6 @@
-package inflearn.YounghanKimspringintroduction.repository;
+package inflearn.spring_introduction.repository;
 
-import inflearn.YounghanKimspringintroduction.domain.Member;
+import inflearn.spring_introduction.domain.Member;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;

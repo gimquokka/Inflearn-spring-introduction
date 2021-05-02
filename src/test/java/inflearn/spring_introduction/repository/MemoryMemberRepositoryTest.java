@@ -1,6 +1,6 @@
-package inflearn.YounghanKimspringintroduction.repository;
+package inflearn.spring_introduction.repository;
 
-import inflearn.YounghanKimspringintroduction.domain.Member;
+import inflearn.spring_introduction.domain.Member;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,10 +1,10 @@
-package inflearn.YounghanKimspringintroduction;
+package inflearn.spring_introduction;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class YounghanKimSpringIntroductionApplicationTests {
+class SpringIntroductionApplicationTests {
 
 	@Test
 	void contextLoads() {

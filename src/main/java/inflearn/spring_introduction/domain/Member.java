@@ -1,4 +1,4 @@
-package inflearn.YounghanKimspringintroduction.domain;
+package inflearn.spring_introduction.domain;
 
 public class Member {
 
