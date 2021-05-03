@@ -5,6 +5,7 @@ import inflearn.spring_introduction.domain.Member;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
 
+
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();

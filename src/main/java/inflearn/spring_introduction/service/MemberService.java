@@ -6,21 +6,19 @@ import inflearn.spring_introduction.repository.MemberRepository;
 import java.util.List;
 import java.util.Optional;
 
-public class MemberServicee {
+public class MemberService {
 
-    //    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    // private final MemberRepository memberRepository = new MemoryMemberRepository();
     private final MemberRepository memberRepository;
 
-    /*
-    DI를 위해 Constructor로 MemberRepository를 주입 받음
-     */
-    public MemberServicee(MemberRepository memberRepository) {
+    // DI를 위해 Constructor로 MemberRepository를 주입 받음
+    public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
 
     /*
         회원가입
-         */
+     */
     public Long join(Member member) {
         vaildateDuplicateMember(member);
         memberRepository.save(member);
