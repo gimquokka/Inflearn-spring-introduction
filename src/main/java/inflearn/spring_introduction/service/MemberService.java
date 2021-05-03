@@ -3,9 +3,11 @@ package inflearn.spring_introduction.service;
 import inflearn.spring_introduction.domain.Member;
 import inflearn.spring_introduction.repository.MemberRepository;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 public class MemberService {
 
     // private final MemberRepository memberRepository = new MemoryMemberRepository();
