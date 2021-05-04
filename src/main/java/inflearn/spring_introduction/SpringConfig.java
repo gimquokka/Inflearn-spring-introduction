@@ -1,5 +1,6 @@
 package inflearn.spring_introduction;
 
+import inflearn.spring_introduction.aop.TimeTraceAop;
 import inflearn.spring_introduction.repository.MemberRepository;
 import inflearn.spring_introduction.service.MemberService;
 import org.springframework.context.annotation.Bean;
@@ -24,6 +25,11 @@ public class SpringConfig {
     @Bean
     public MemberService memberService() {
         return new MemberService(memberRepository);
+    }
+
+    @Bean
+    public TimeTraceAop timeTraceAop() {
+        return timeTraceAop();
     }
 
 //    @Bean
