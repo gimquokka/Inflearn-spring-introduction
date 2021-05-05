@@ -14,7 +14,7 @@ import java.util.List;
 @Controller
 public class MemberController {
 
-    private MemberService memberServicee;
+    private final MemberService memberServicee;
 
     // DI MemberService Object to MemberController
     @Autowired

@@ -3,6 +3,7 @@ package inflearn.spring_introduction;
 import inflearn.spring_introduction.aop.TimeTraceAop;
 import inflearn.spring_introduction.repository.MemberRepository;
 import inflearn.spring_introduction.service.MemberService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -18,6 +19,7 @@ public class SpringConfig {
 //    }
     private final MemberRepository memberRepository;
 
+    @Autowired
     public SpringConfig(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
@@ -29,7 +31,7 @@ public class SpringConfig {
 
     @Bean
     public TimeTraceAop timeTraceAop() {
-        return timeTraceAop();
+        return new TimeTraceAop();
     }
 
 //    @Bean
