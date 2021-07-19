@@ -1,6 +1,6 @@
 # Inflearn-spring-introduction
 
-[김영한 강사님의 인프런 스프링 입문 강의](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)에 사용된 프로젝트를 발전시킨 Spring-Boot 기반 간단 회원등록/관리 서비스
+Spring-Boot-Based Simple Member Registration/Management Services
 
 
 
